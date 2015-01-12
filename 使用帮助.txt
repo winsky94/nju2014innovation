@@ -1,0 +1,34 @@
+如果你已经配置好android eclipse 这个也可以不用，我听说这个ＩＤＥ是专门对Android比较好用
+
+双击exe文件，内含studio for windows和sdk 32 64位均可使用
+
+选择一下studio和sdk的安装目录 尽量两个文件夹在同一根目录下
+
+安装完成后
+
+在studio 的bin目录下的 idea.proerties的最后一行加上disable.android.first.run=true 
+在C:\Windows\System32\drivers\etc的hosts文件最后一行加上
+203.208.46.146 dl.google.com
+203.208.46.146 dl-ssl.google.com（前面不要加#号）
+上述步骤是为解决第一次启动时一直check for sdk infomation 的问题
+
+运行：
+进到studio的bin目录下，32位双击运行启动程序studio.exe ，64位则双击运行studio64.exe  建议其他文件不要删除，有些文件是区分32,64位，有些是共用的
+
+接下来会出现一个download component 。。。总之是下载界面 这个下载时间相当长，与配置和网速有关，一两个小时吧。
+下载完成第一次打开是一个指引界面，create a new project按步next,就会进入主界面。
+
+
+
+
+主题配置：
+File-》setting 搜索Appearance 选择后，右边会有主题下拉框，我选的是Dar...的 ，黑色的。
+
+接下来的功能可以自己慢慢摸索啦！
+
+
+
+
+
+
+
